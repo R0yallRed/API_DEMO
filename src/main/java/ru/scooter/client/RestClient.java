@@ -1,9 +1,9 @@
-package ru.scooter.tests.client;
+package ru.scooter.client;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
-import ru.scooter.tests.config.Config;
+import ru.scooter.config.Config;
 
 public class RestClient {
     public RequestSpecification getDefaultRequestSpec() {

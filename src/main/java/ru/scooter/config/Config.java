@@ -1,4 +1,4 @@
-package ru.scooter.tests.config;
+package ru.scooter.config;
 
 public class Config {
 

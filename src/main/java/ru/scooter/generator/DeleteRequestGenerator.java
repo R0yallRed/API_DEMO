@@ -1,6 +1,6 @@
-package ru.scooter.tests.generator;
+package ru.scooter.generator;
 
-import ru.scooter.tests.dto.DeleteRequest;
+import ru.scooter.dto.DeleteRequest;
 
 public class DeleteRequestGenerator {
     public static DeleteRequest from(int id) {

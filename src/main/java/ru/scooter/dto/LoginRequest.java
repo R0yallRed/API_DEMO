@@ -1,4 +1,4 @@
-package ru.scooter.tests.dto;
+package ru.scooter.dto;
 
 public class LoginRequest {
     private String login;

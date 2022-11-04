@@ -1,5 +1,7 @@
-package ru.scooter;
+package ru.scooter.tests;
 
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
@@ -10,8 +12,6 @@ import ru.scooter.dto.DeleteRequest;
 import ru.scooter.dto.LoginRequest;
 import ru.scooter.generator.DeleteRequestGenerator;
 import ru.scooter.generator.LoginRequestGenerator;
-
-
 import static ru.scooter.generator.CourierRequestGenerator.randomCourierRequest;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphanumeric;
@@ -32,10 +32,12 @@ public class LoginTest {
                 .statusCode(SC_CREATED)
                 .and()
                 .body("ok", equalTo(true));
+
     }
 
-
     @Test
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     @DisplayName("Courier can login.Positive")
     public void courierCanLoginPositiveTest() {
         LoginRequest loginRequest = LoginRequestGenerator.from(courierRequest);
@@ -50,6 +52,8 @@ public class LoginTest {
 
     @Test
     @DisplayName("Wrong login.Negative")
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     public void wrongLoginNegativeTest() {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setLogin(randomAlphabetic(10));
@@ -62,6 +66,8 @@ public class LoginTest {
 
     @Test
     @DisplayName("Empty login.Negative")
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     public void emptyLoginNegativeTest() {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setLogin("");
@@ -73,6 +79,8 @@ public class LoginTest {
 
     @Test
     @DisplayName("Wrong password.Negative")
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     public void wrongPasswordNegativeTest() {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setLogin(courierRequest.getLogin());
@@ -85,6 +93,8 @@ public class LoginTest {
 
     @Test
     @DisplayName("Empty password.Negative")
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     public void emptyPasswordNegativeTest() {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setLogin(courierRequest.getLogin());
@@ -96,6 +106,8 @@ public class LoginTest {
 
     @Test
     @DisplayName("Non existent courier login.Negative")
+    @Epic(value = "Couriers")
+    @Feature(value = "Login")
     public void nonExistentCourierLoginNegativeTest() {
         LoginRequest loginRequest = new LoginRequest();
         loginRequest.setLogin(randomAlphabetic(10));

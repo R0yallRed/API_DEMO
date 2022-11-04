@@ -1,6 +1,6 @@
-package ru.scooter.tests.generator;
+package ru.scooter.generator;
 
-import ru.scooter.tests.dto.OrdersRequest;
+import ru.scooter.dto.OrdersRequest;
 
 import static java.lang.Integer.valueOf;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;

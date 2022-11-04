@@ -1,7 +1,7 @@
-package ru.scooter.tests.generator;
+package ru.scooter.generator;
 
-import ru.scooter.tests.dto.CourierRequest;
-import ru.scooter.tests.dto.LoginRequest;
+import ru.scooter.dto.CourierRequest;
+import ru.scooter.dto.LoginRequest;
 
 public class LoginRequestGenerator {
     public static LoginRequest from(CourierRequest courierRequest) {

@@ -1,7 +1,7 @@
-package ru.scooter.tests.generator;
+package ru.scooter.generator;
 
 import com.github.javafaker.Faker;
-import ru.scooter.tests.dto.CourierRequest;
+import ru.scooter.dto.CourierRequest;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphanumeric;

@@ -1,8 +1,8 @@
-package ru.scooter.tests.client;
+package ru.scooter.client;
 
 import io.restassured.response.ValidatableResponse;
-import ru.scooter.tests.dto.CourierRequest;
-import ru.scooter.tests.dto.LoginRequest;
+import ru.scooter.dto.CourierRequest;
+import ru.scooter.dto.LoginRequest;
 
 import static io.restassured.RestAssured.given;
 
