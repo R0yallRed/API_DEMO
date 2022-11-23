@@ -1,0 +1,231 @@
+[ {
+  "uid" : "1935bbd6f3ba9340",
+  "name" : "Accept already accepted order negative test",
+  "time" : {
+    "start" : 1667282644954,
+    "stop" : 1667282645472,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4b9e4ddc82eaea1",
+  "name" : "Wrong login.Negative",
+  "time" : {
+    "start" : 1667282642456,
+    "stop" : 1667282642569,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ee9f230422d903a",
+  "name" : "Creating new order with different colors. Parametrized [3] 2022-10-30, [BLACK, GRAY]",
+  "time" : {
+    "start" : 1667282643515,
+    "stop" : 1667282643628,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4b36cd0970d9226",
+  "name" : "Creating new order with different colors. Parametrized [2] 2022-10-30, [GREY]",
+  "time" : {
+    "start" : 1667282643391,
+    "stop" : 1667282643512,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5999413054492964",
+  "name" : "Wrong password.Negative",
+  "time" : {
+    "start" : 1667282642572,
+    "stop" : 1667282642808,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4c8b1f9d14fc01f",
+  "name" : "Accept order with wrong courier login negative test",
+  "time" : {
+    "start" : 1667282645475,
+    "stop" : 1667282645904,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a52ee982ff03700",
+  "name" : "Creating new courier.Positive",
+  "time" : {
+    "start" : 1667282639611,
+    "stop" : 1667282641015,
+    "duration" : 1404
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7114001dad8daf4d",
+  "name" : "Creating new order with different colors. Parametrized [4] 2022-12-31, []",
+  "time" : {
+    "start" : 1667282643650,
+    "stop" : 1667282643770,
+    "duration" : 120
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "955d77be45ea75b8",
+  "name" : "Creating courier with same login.Negative",
+  "time" : {
+    "start" : 1667282641469,
+    "stop" : 1667282641828,
+    "duration" : 359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c57fc3fe910be37c",
+  "name" : "Empty password registration.Negative",
+  "time" : {
+    "start" : 1667282641831,
+    "stop" : 1667282641934,
+    "duration" : 103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a9eb404235fdd27",
+  "name" : "Empty password.Negative",
+  "time" : {
+    "start" : 1667282642811,
+    "stop" : 1667282642940,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7943e4c40a7ebcea",
+  "name" : "Accept order with wrong id negative test repetition 3 of 5",
+  "time" : {
+    "start" : 1667282644544,
+    "stop" : 1667282644673,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7437b1196521901",
+  "name" : "Accept order with wrong id negative test repetition 2 of 5",
+  "time" : {
+    "start" : 1667282644433,
+    "stop" : 1667282644542,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75d8ab2f83529e3e",
+  "name" : "Accept order positive test",
+  "time" : {
+    "start" : 1667282643774,
+    "stop" : 1667282644248,
+    "duration" : 474
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77d8e77242139b7",
+  "name" : "Accept order with wrong id negative test repetition 1 of 5",
+  "time" : {
+    "start" : 1667282644279,
+    "stop" : 1667282644430,
+    "duration" : 151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "feafc890b1c38c86",
+  "name" : "Accept order with wrong id negative test repetition 5 of 5",
+  "time" : {
+    "start" : 1667282644831,
+    "stop" : 1667282644952,
+    "duration" : 121
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29136ee3985eaa1d",
+  "name" : "Creating courier only with mandatory fields.Positive",
+  "time" : {
+    "start" : 1667282641023,
+    "stop" : 1667282641466,
+    "duration" : 443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22bbded701eb6f76",
+  "name" : "Non existent courier login.Negative",
+  "time" : {
+    "start" : 1667282642085,
+    "stop" : 1667282642199,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48833d88efd3216c",
+  "name" : "Empty login registration.Negative",
+  "time" : {
+    "start" : 1667282636810,
+    "stop" : 1667282639534,
+    "duration" : 2724
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c8f9c44531f3927",
+  "name" : "Empty login.Negative",
+  "time" : {
+    "start" : 1667282642344,
+    "stop" : 1667282642454,
+    "duration" : 110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df5e1328468eeb55",
+  "name" : "Courier can login.Positive",
+  "time" : {
+    "start" : 1667282642202,
+    "stop" : 1667282642340,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77179c316748c215",
+  "name" : "Accept order with wrong id negative test repetition 4 of 5",
+  "time" : {
+    "start" : 1667282644676,
+    "stop" : 1667282644820,
+    "duration" : 144
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "33246657934aa9a9",
+  "name" : "Creating new order with different colors. Parametrized [1] 2023-10-30, [BLACK]",
+  "time" : {
+    "start" : 1667282643224,
+    "stop" : 1667282643387,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

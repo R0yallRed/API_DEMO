@@ -1,0 +1,60 @@
+{
+  "uid" : "a4b9e4ddc82eaea1",
+  "name" : "Wrong login.Negative",
+  "fullName" : "ru.scooter.tests.LoginTest.wrongLoginNegativeTest",
+  "historyId" : "983b4dde3c8f5274b7197a7b6ec76dc8",
+  "time" : {
+    "start" : 1667282642456,
+    "stop" : 1667282642569,
+    "duration" : 113
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.LoginTest]/[method:wrongLoginNegativeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "wrongLoginNegativeTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a4b9e4ddc82eaea1.json",
+  "parameterValues" : [ ]
+}

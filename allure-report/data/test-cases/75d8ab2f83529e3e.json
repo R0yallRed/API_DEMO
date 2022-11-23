@@ -1,0 +1,104 @@
+{
+  "uid" : "75d8ab2f83529e3e",
+  "name" : "Accept order positive test",
+  "fullName" : "ru.scooter.tests.OrderTest.acceptOrderPositiveTest",
+  "historyId" : "8b56b667fa72f1bcc73062dd5ca41c6d",
+  "time" : {
+    "start" : 1667282643774,
+    "stop" : 1667282644248,
+    "duration" : 474
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Create New Order",
+      "time" : {
+        "start" : 1667282643774,
+        "stop" : 1667282643923,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Get order ID",
+      "time" : {
+        "start" : 1667282643924,
+        "stop" : 1667282644090,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "orderTrack",
+        "value" : "247343"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.OrderTest]/[method:acceptOrderPositiveTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.OrderTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.OrderTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "acceptOrderPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.OrderTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "75d8ab2f83529e3e.json",
+  "parameterValues" : [ ]
+}

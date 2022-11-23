@@ -1,0 +1,60 @@
+{
+  "uid" : "48833d88efd3216c",
+  "name" : "Empty login registration.Negative",
+  "fullName" : "ru.scooter.tests.CourierTest.emptyLoginRegistrationNegativeTest",
+  "historyId" : "e0bacacf50c96d1ee6a6a49cd492234d",
+  "time" : {
+    "start" : 1667282636810,
+    "stop" : 1667282639534,
+    "duration" : 2724
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.CourierTest]/[method:emptyLoginRegistrationNegativeTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyLoginRegistrationNegativeTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "48833d88efd3216c.json",
+  "parameterValues" : [ ]
+}

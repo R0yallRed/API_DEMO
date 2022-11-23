@@ -1,0 +1,87 @@
+{
+  "uid" : "7a52ee982ff03700",
+  "name" : "Creating new courier.Positive",
+  "fullName" : "ru.scooter.tests.CourierTest.courierShouldBeCreatedPositiveTest",
+  "historyId" : "70e040fc63a934bfc6b0ad131b944e9c",
+  "time" : {
+    "start" : 1667282639611,
+    "stop" : 1667282641015,
+    "duration" : 1404
+  },
+  "description" : "Creating new courier.Positive",
+  "descriptionHtml" : "<p>Creating new courier.Positive</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Creating new courier.Positive",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "CreateNewCourier",
+      "time" : {
+        "start" : 1667282639624,
+        "stop" : 1667282640595,
+        "duration" : 971
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.CourierTest]/[method:courierShouldBeCreatedPositiveTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierShouldBeCreatedPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a52ee982ff03700.json",
+  "parameterValues" : [ ]
+}

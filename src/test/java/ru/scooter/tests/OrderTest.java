@@ -15,6 +15,8 @@ import ru.scooter.generator.DeleteRequestGenerator;
 import ru.scooter.steps.CourierSteps;
 import ru.scooter.steps.OrderSteps;
 
+import javax.security.auth.login.Configuration;
+
 import static java.lang.Integer.*;
 import static org.apache.http.HttpStatus.*;
 import static org.hamcrest.Matchers.equalTo;
@@ -24,8 +26,8 @@ import static org.apache.commons.lang3.RandomStringUtils.randomNumeric;
 public class OrderTest {
     private static final OrdersClient ordersClient = new OrdersClient();
     private static final CourierClient courierClient = new CourierClient();
-    private  static final OrderSteps orderSteps = new OrderSteps();
-    private  static final CourierSteps courierSteps = new CourierSteps();
+    private static final OrderSteps orderSteps = new OrderSteps();
+    private static final CourierSteps courierSteps = new CourierSteps();
     private static Integer courierId;
 
     @BeforeAll
@@ -94,6 +96,7 @@ public class OrderTest {
                 .body("message", equalTo("Этот заказ уже в работе"));
 
     }
+
     @Test
     @DisplayName("Finish order positive test")
     @Epic(value = "Orders")
@@ -116,7 +119,7 @@ public class OrderTest {
     @Epic(value = "Orders")
     @Feature(value = "Finish Order")
     public void finishOrderNonExistentIdNegativeTest() {
-        ordersClient.finishOrder(valueOf(randomNumeric(7,9)))
+        ordersClient.finishOrder(valueOf(randomNumeric(7, 9)))
                 .assertThat()
                 .statusCode(SC_NOT_FOUND)
                 .body("message", equalTo("Заказа с таким id не существует"));

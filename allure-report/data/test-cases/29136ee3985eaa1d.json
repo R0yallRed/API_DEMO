@@ -1,0 +1,60 @@
+{
+  "uid" : "29136ee3985eaa1d",
+  "name" : "Creating courier only with mandatory fields.Positive",
+  "fullName" : "ru.scooter.tests.CourierTest.courierShouldBeCreatedOnlyMandatoryFieldsPositiveTest",
+  "historyId" : "ed74bd6f5b151fdab46a4ea2e8985e27",
+  "time" : {
+    "start" : 1667282641023,
+    "stop" : 1667282641466,
+    "duration" : 443
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.CourierTest]/[method:courierShouldBeCreatedOnlyMandatoryFieldsPositiveTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierShouldBeCreatedOnlyMandatoryFieldsPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.CourierTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "29136ee3985eaa1d.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,60 @@
+{
+  "uid" : "df5e1328468eeb55",
+  "name" : "Courier can login.Positive",
+  "fullName" : "ru.scooter.tests.LoginTest.courierCanLoginPositiveTest",
+  "historyId" : "f9df33e3c06c7d9b86ec456516a5fe16",
+  "time" : {
+    "start" : 1667282642202,
+    "stop" : 1667282642340,
+    "duration" : 138
+  },
+  "description" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "junit.platform.uniqueid",
+    "value" : "[engine:junit-jupiter]/[class:ru.scooter.tests.LoginTest]/[method:courierCanLoginPositiveTest()]"
+  }, {
+    "name" : "host",
+    "value" : "Royall-Red"
+  }, {
+    "name" : "thread",
+    "value" : "11836@Royall-Red.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit-platform"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "package",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "courierCanLoginPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "ru.scooter.tests.LoginTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "df5e1328468eeb55.json",
+  "parameterValues" : [ ]
+}
